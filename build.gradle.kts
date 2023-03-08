@@ -3,7 +3,7 @@ plugins {
     application
 }
 
-group = "com.practice"
+group = "com.learn.hn"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -12,6 +12,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation(kotlin("stdlib"))
 }
 
 tasks.test {
